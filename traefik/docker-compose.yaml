@@ -16,7 +16,7 @@ services:
        - "traefik.http.routers.api.rule=PathPrefix(`/api`) || PathPrefix(`/dashboard`)"
        - "traefik.http.routers.api.service=api@internal"
        - "traefik.http.routers.api.middlewares=api-auth"
-       - "traefik.http.middlewares.api-auth.basicauth.users=dardaniaa84/Tringa08" # Benutzer und Passwort generieren
+       - "traefik.http.middlewares.api-auth.basicauth.users=$2y$$05$$ssPJPtfyu1dTu1whsaXpReVZWh1lcdCMDiBt99NSuyNhwe.q4ImSG" # Benutzer und Passwort generieren
     networks:
       - traefik_proxy
       - default
