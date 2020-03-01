@@ -9,7 +9,7 @@ services:
     volumes:
       - /var/docker/wordpress/database:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD= # Starkes Passwort setzen
+      - MYSQL_ROOT_PASSWORD=Tringa08 # Starkes Passwort setzen
       - MYSQL_DATABASE=wordpress
       - MYSQL_USER=wordpress
       - MYSQL_PASSWORD=Tringa08 # Starkes Passwort setzen
